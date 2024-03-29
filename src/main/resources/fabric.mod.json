@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "btcopper",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This mod aims to help new BTA modders.",
+  "name": "Better Than Copper",
+  "description": " Replaces redstone with Copper and expands on its uses.",
   "authors": [
-    "Turnip Labs"
+    "Xaidee Quartz"
   ],
   "contact": {
     "homepage": "",
@@ -14,25 +14,25 @@
   },
 
 	"icon": "icon.png",
-  "license": "CC0-1.0",
+  "license": "MIT",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-			"turniplabs.examplemod.ExampleMod"
+			"xaidee.btcopper.BetterThanCopper"
     ],
 		"beforeGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"xaidee.btcopper.BetterThanCopper"
 		],
 		"afterGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"xaidee.btcopper.BetterThanCopper"
 		],
 		"recipesReady": [
-			"turniplabs.examplemod.ExampleMod"
+			"xaidee.btcopper.BetterThanCopper"
 		]
 	},
   "mixins": [
-      "examplemod.mixins.json"
+		"btcopper.mixins.json"
   ],
 
   "depends": {
